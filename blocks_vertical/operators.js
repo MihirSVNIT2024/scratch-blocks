@@ -446,6 +446,7 @@ Blockly.Blocks['operator_mathop'] = {
             [Blockly.Msg.OPERATORS_MATHOP_FLOOR, 'floor'],
             [Blockly.Msg.OPERATORS_MATHOP_CEILING, 'ceiling'],
             [Blockly.Msg.OPERATORS_MATHOP_SQRT, 'sqrt'],
+            [Blockly.Msg.OPERATORS_MATHOP_SQUARE, 'square'],
             [Blockly.Msg.OPERATORS_MATHOP_SIN, 'sin'],
             [Blockly.Msg.OPERATORS_MATHOP_COS, 'cos'],
             [Blockly.Msg.OPERATORS_MATHOP_TAN, 'tan'],
