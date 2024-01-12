@@ -182,6 +182,9 @@ Blockly.Msg.MOTION_STAGE_SELECTED = 'Stage selected: no motion blocks';
 
 // Operators blocks
 Blockly.Msg.OPERATORS_ADD = '%1 + %2';
+Blockly.Msg.OPERATORS_SQUARE = 'square %1';
+Blockly.Msg.OPERATORS_SQUAREROOT = 'squareroot %1';
+Blockly.Msg.XYZ = 'xyz %1';
 Blockly.Msg.OPERATORS_SUBTRACT = '%1 - %2';
 Blockly.Msg.OPERATORS_MULTIPLY = '%1 * %2';
 Blockly.Msg.OPERATORS_DIVIDE = '%1 / %2';
@@ -217,6 +220,8 @@ Blockly.Msg.OPERATORS_MATHOP_LN = 'ln';
 Blockly.Msg.OPERATORS_MATHOP_LOG = 'log';
 Blockly.Msg.OPERATORS_MATHOP_EEXP = 'e ^';
 Blockly.Msg.OPERATORS_MATHOP_10EXP = '10 ^';
+Blockly.Msg.OPERATORS_MATHOP_9EXP = '9 ^';
+
 
 // Procedures blocks
 Blockly.Msg.PROCEDURES_DEFINITION = 'define %1';
