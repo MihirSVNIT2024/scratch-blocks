@@ -52,6 +52,66 @@ Blockly.Blocks['operator_add'] = {
   }
 };
 
+Blockly.Blocks['operator_square'] = {
+  /**
+   * Block for square of a numbers.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_SQUARE,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
+Blockly.Blocks['operator_squareroot'] = {
+  /**
+   * Block for squareroot of a numbers.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_SQUAREROOT,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
+Blockly.Blocks['xyz'] = {
+  /**
+   * Block for square of a numbers.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.XYZ,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_subtract'] = {
   /**
    * Block for subtracting two numbers.
@@ -456,7 +516,8 @@ Blockly.Blocks['operator_mathop'] = {
             [Blockly.Msg.OPERATORS_MATHOP_LN, 'ln'],
             [Blockly.Msg.OPERATORS_MATHOP_LOG, 'log'],
             [Blockly.Msg.OPERATORS_MATHOP_EEXP, 'e ^'],
-            [Blockly.Msg.OPERATORS_MATHOP_10EXP, '10 ^']
+            [Blockly.Msg.OPERATORS_MATHOP_10EXP, '10 ^'],
+            [Blockly.Msg.OPERATORS_MATHOP_9EXP, '9 ^']
           ]
         },
         {
@@ -469,3 +530,4 @@ Blockly.Blocks['operator_mathop'] = {
     });
   }
 };
+
